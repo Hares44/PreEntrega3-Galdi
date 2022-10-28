@@ -140,3 +140,10 @@ main {
     margin-top: 50px;
     text-align: center;
 }
+
+@media  and (min-width: 480px) {
+    .logo{
+        display: none !important;
+    }
+    
+}
