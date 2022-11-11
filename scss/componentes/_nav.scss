@@ -1,0 +1,22 @@
+nav {
+    background-color: rgb(193, 189, 179);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 12px;
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 5px;
+    background: rgb(127,121,121);
+    background: linear-gradient(180deg, rgba(127,121,121,1) 0%, rgba(157,147,147,1) 35%, rgba(214,209,209,1) 100%);
+}
